@@ -15,6 +15,8 @@
 		1876E7821E84205F000DF840 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1876E7801E84205F000DF840 /* LaunchScreen.storyboard */; };
 		1876E78D1E84205F000DF840 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876E78C1E84205F000DF840 /* GitDemoTests.m */; };
 		1876E7981E84205F000DF840 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876E7971E84205F000DF840 /* GitDemoUITests.m */; };
+		1876E7A71E842900000DF840 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876E7A61E842900000DF840 /* FirstViewController.m */; };
+		1876E7AA1E842911000DF840 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1876E7A91E842911000DF840 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1876E7931E84205F000DF840 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1876E7971E84205F000DF840 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		1876E7991E84205F000DF840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1876E7A51E842900000DF840 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1876E7A61E842900000DF840 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1876E7A81E842911000DF840 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1876E7A91E842911000DF840 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,10 @@
 			children = (
 				1876E7751E84205F000DF840 /* AppDelegate.h */,
 				1876E7761E84205F000DF840 /* AppDelegate.m */,
+				1876E7A51E842900000DF840 /* FirstViewController.h */,
+				1876E7A61E842900000DF840 /* FirstViewController.m */,
+				1876E7A81E842911000DF840 /* SecondViewController.h */,
+				1876E7A91E842911000DF840 /* SecondViewController.m */,
 				1876E7781E84205F000DF840 /* ViewController.h */,
 				1876E7791E84205F000DF840 /* ViewController.m */,
 				1876E77B1E84205F000DF840 /* Main.storyboard */,
@@ -276,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1876E7AA1E842911000DF840 /* SecondViewController.m in Sources */,
 				1876E77A1E84205F000DF840 /* ViewController.m in Sources */,
 				1876E7771E84205F000DF840 /* AppDelegate.m in Sources */,
 				1876E7741E84205F000DF840 /* main.m in Sources */,
+				1876E7A71E842900000DF840 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +526,7 @@
 				1876E79E1E84205F000DF840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1876E79F1E84205F000DF840 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				1876E7A11E84205F000DF840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1876E7A21E84205F000DF840 /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				1876E7A41E84205F000DF840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
