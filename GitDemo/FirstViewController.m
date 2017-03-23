@@ -16,11 +16,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self initUI];
+    [self initUITableView];
     // Do any additional setup after loading the view.
 }
--(void)initUI{
+-(void)initUITableView{
 
+    NSLog(@"initUI");
+}
+-(void)initUI1{
+    
+    NSLog(@"initUI");
+}
+-(void)initUI2{
+    
+    NSLog(@"initUI");
+}
+-(void)initUI3{
+    
     NSLog(@"initUI");
 }
 - (void)didReceiveMemoryWarning {
